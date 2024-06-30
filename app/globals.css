@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social-icons {
+  @apply cursor-pointer opacity-60 duration-500 transition-opacity hover:opacity-100;
+}
+
+.container-switch {
+  @apply flex justify-between items-center gap-2 border border-solid border-[#53c28b] px-1 py-1 rounded-full relative;
+}
+
+.switch {
+  @apply absolute bg-[#53c28b] w-6 h-6 rounded-full;
+}
+
+/* theme page */
+.darkMode {
+  @apply bg-[#111] text-white;
+}
+
+.lightMode {
+  @apply bg-white text-black;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
